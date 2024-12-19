@@ -15,6 +15,7 @@ public class ArraysAreEqual {
      * @return true if the values of a are equal to the values of b.
      */
     public boolean equal(int[] a, int[] b){
-        return false;
+        // implementing Java Arrays built-in .equals() method from Java's util package to compare if arrays 'a' is equivalent to 'b' --- recall: .equals() compares the value (Loose comparison) NOT memory like '==' equal operator
+        return java.util.Arrays.equals(a, b);
     }
 }
